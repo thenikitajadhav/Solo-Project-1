@@ -1,0 +1,172 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: Arial;
+}
+
+#place {
+    width: 100px;
+    border-radius: 50px;
+    margin: 0 20px;
+}
+
+img{
+    width: 150px;
+}
+.header{
+    background-image: url(https://www.exoticca.com/us/blog/wp-content/uploads/2017/10/post-blog-varanasi-ganges-india-00-header.jpg);
+    background-size: cover;
+    height: 600px;
+    margin-top: -60px;
+}
+
+h1{
+    padding: 180px 0 30px;
+    font-size: 90px;
+    margin: auto;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    color: gold;
+    text-shadow: 5px 4px 10px black, 5px 5px 4px white;
+}
+
+h2{
+    background: #FAC750;
+    padding: 3px 0%;
+    margin: auto;
+    color: #39393c;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1,h2{
+ 
+ max-width: 750px;
+ min-width: 750px;
+ text-align: center;
+
+}
+
+ 
+.main{
+    display: flex;
+    background-color: #FFF699;
+    height: 300px;
+    background-size: cover;
+    padding: 50px 0px;
+    justify-content: space-evenly;
+    
+}
+
+.card{
+    padding: 20px 30px;
+    border: 1px solid #FAD662;
+    margin: 0 5px 30px 10px;
+    min-width: 150px;
+    max-width: 160px;
+    background-color: #FFE54C;
+    box-shadow: 10px 10px #FAC750;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    line-height: 25px;
+    height: 200px;
+}
+
+.icon {
+   margin: 0 auto;
+   width: 90px;
+   height: 90px;
+   max-width:90px;
+   border-radius: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: all 0.8s ease;
+   background-position: 0px;
+   background-size: 200px;
+}
+
+.title {
+   width: 100%;
+   margin: 0;
+   text-align: center;
+   margin-top: 25px;
+   color: black;
+   font-weight: 800;
+   font-style: strong;
+   
+}
+
+.card:hover {
+   height: 220px;   
+   transform: scale(1.2);
+   background-color: #FFDC26;
+}
+
+.text
+{
+    opacity: 0;
+    
+}
+
+.card:hover .text{
+   transition: all 0.3s ease;
+   transform:translateY(-20px);  
+   opacity: 1;
+   line-height: 20px;
+   max-height:2px;
+   margin-top: 8px;
+   padding-bottom: 5px;
+   
+}
+.card:hover .title{
+    transition: all 0.3s ease;
+    transform:translateY(-20px);
+    line-height: 20px;
+    padding-top: 12px;
+}
+
+.guide{
+    display:flex;
+
+    border: 1px solid black;
+    box-shadow: 10px 10px black;
+    margin: 40px auto 40px auto;
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color: #F4D9D9;
+    color: black;
+    min-width: 400px;
+    max-width: 400px;
+    max-height: 250px;
+    transition: transform 0.3s ease;
+}
+
+
+.content{
+   
+    max-height: 200px;
+    margin-top: 10px;
+    padding: 0 2px 5px 2px;
+}
+
+.image{
+    padding: 20px;
+    padding-left: 15px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #FFED73 ;
+    background-size: cover;
+}
